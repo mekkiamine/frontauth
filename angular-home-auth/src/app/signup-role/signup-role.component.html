@@ -1,0 +1,28 @@
+<div class="container" style="margin-top: 250px;">
+  <div class="grid-wrapper grid-col-auto">
+    <div class="flex sm:grid-cols-2 gap-2">
+      <label for="hs-radio-checked-in-form" class="flex p-3 w-full bg-white border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
+        <input type="radio" name="hs-radio-in-form" class="shrink-0 mt-0.5 border-gray-200 rounded-full text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="hs-radio-checked-in-form">
+        <span class="text-sm text-black-500 ms-3 dark:text-gray-400">I am an instructor, looking to teach</span>
+      </label>
+      <label for="hs-radio-in-form-1" class="flex p-3 w-full bg-white border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
+        <input type="radio" name="hs-radio-in-form" class="shrink-0 mt-0.5 border-gray-200 rounded-full text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="hs-radio-in-form-1">
+        <span class="text-sm text-black-500 ms-3 dark:text-gray-400">I am a client, looking to hire</span>
+      </label>
+      <label for="hs-radio-in-form-2" class="flex p-3 w-full bg-white border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400">
+        <input type="radio" name="hs-radio-in-form" class="shrink-0 mt-0.5 border-gray-200 rounded-full text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="hs-radio-in-form-2">
+        <span class="text-sm text-black-500 ms-3 dark:text-gray-400">I am a student, looking to learn</span>
+      </label>
+    </div>
+  </div>
+</div>
+<!-- /.container -->
+<div class="button-container">
+  <button type="button" id="create-account" (click)="createAccount()" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" disabled>
+    Create Account
+  </button>
+</div>
+<div class="flex justify-center" style="margin-top: 10px;">
+  You already have an account?  <button routerLink="/login" class="text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-400">Login here</button>
+</div>
+

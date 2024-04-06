@@ -1,0 +1,23 @@
+label {
+  height: 100px;
+  /* Adjust this value to your preference */
+  width: 300px;
+  display: flex;
+  align-items: center;
+  /* This will vertically center the contents */
+}
+
+.container {
+  margin-left: 300px;
+}
+
+label span {
+  font-size: 15px;
+  /* Adjust this value to your preference */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
